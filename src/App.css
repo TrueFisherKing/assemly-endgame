@@ -1,4 +1,4 @@
-* { 
+* {
   box-sizing: border-box;
 }
 
@@ -30,7 +30,7 @@ header p {
   background-color: #10a95b;
   border-radius: 4px;
   color: #f9f4da;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,6 +44,7 @@ header p {
   font-size: 1.25rem;
   margin: 0;
 }
+
 .game-status p {
   font-size: 1rem;
   margin: 0;
@@ -63,6 +64,22 @@ header p {
   padding: 5px 10px;
   font-size: 0.875rem;
   cursor: pointer;
+  position: relative;
+}
+
+.chip.lost::before {
+  content: "☠️";
+  /* content: "test"; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-size: 0.85rem;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .word {
@@ -76,12 +93,12 @@ header p {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   background-color: #323232;
   border-bottom: 4px solid #f9f4da;
   /* border-radius: 4px 4px 0px 0px; */
   font-size: 1rem;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 
   height: 40px;
   width: 40px;
@@ -101,6 +118,7 @@ header p {
   border: 1px solid #d7d7d7;
   border-radius: 2px;
   color: #000;
+  cursor: pointer;
   height: 40px;
   width: 40px;
   text-transform: uppercase;
@@ -115,13 +133,13 @@ header p {
 }
 
 button.new-game {
-    background-color: #11B5E5;
-    border: 1px solid #D7D7D7;
-    border-radius: 4px;
-    width: 225px;
-    height: 40px;
-    padding: 6px 12px;
-    display: block;
-    margin-inline: auto;
-    cursor: pointer;
+  background-color: #11B5E5;
+  border: 1px solid #D7D7D7;
+  border-radius: 4px;
+  width: 225px;
+  height: 40px;
+  padding: 6px 12px;
+  display: block;
+  margin-inline: auto;
+  cursor: pointer;
 }
