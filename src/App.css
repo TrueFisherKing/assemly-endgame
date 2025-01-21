@@ -65,7 +65,7 @@ header p {
   cursor: pointer;
 }
 
-.word-box {
+.word {
   display: flex;
   justify-content: center;
   gap: 4px;
@@ -103,6 +103,15 @@ header p {
   color: #000;
   height: 40px;
   width: 40px;
+  text-transform: uppercase;
+}
+
+.keyboard button.correct {
+  background-color: #10a95b;
+}
+
+.keyboard button.wrong {
+  background-color: #ec5d49;
 }
 
 button.new-game {

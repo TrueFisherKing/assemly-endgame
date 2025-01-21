@@ -46,4 +46,4 @@ export const languages = [
     },
 ]
 
-export const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
+export const alphabet = 'abcdefghijklmnopqrstuvwxyz'
