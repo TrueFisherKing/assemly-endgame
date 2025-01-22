@@ -54,8 +54,6 @@ export default function AssemblyEndgame() {
     )
   })
 
-
-
   const keyboardElements = alphabet.split("").map((letter) => {
     const isGuessed = guessedLetters.includes(letter)
     const isCorrect = isGuessed && currentWord.includes(letter)
@@ -65,7 +63,6 @@ export default function AssemblyEndgame() {
       correct: isCorrect,
       wrong: isWrong
     })
-
 
     return (
       <button
