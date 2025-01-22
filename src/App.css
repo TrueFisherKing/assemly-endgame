@@ -28,6 +28,7 @@ header p {
 
 .game-status {
   background-color: #10a95b;
+  background-color: #262626;
   border-radius: 4px;
   color: #f9f4da;
 
@@ -37,9 +38,15 @@ header p {
   gap: 5px;
 
   margin-block: 30px;
+  min-height: 60px;
   padding: 5px;
 }
-
+.game-status.game-won {
+  background-color: #10a95b;
+}
+.game-status.game-lost {
+  background-color: #b12626;
+}
 .game-status h2 {
   font-size: 1.25rem;
   margin: 0;

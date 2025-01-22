@@ -47,3 +47,10 @@ export const languages = [
 ]
 
 export const alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+export const randomWords = [
+    "apple", "river", "telescope", "journey", "bicycle", "melody",
+    "crystal", "shadow", "lantern", "canyon", "horizon", "puzzle",
+    "thunder", "galaxy", "emerald", "whisper", "sunset", "fabric",
+    "orbit", "harbor"
+]
