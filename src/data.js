@@ -54,3 +54,9 @@ export const randomWords = [
     "thunder", "galaxy", "emerald", "whisper", "sunset", "fabric",
     "orbit", "harbor"
 ]
+
+export const fareWellData = {
+    gameWon: { h2: "You win.", p: "Well done!", className: "game-won" },
+    gameLost: { h2: "Game over!", p: "You lose, Better start learning Assembly.", className: "game-lost" },
+    nothing: {h2: null, p: null, className: null}
+}
