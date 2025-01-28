@@ -8,8 +8,8 @@ import { useWindowSize } from 'react-use'
 import Confetti from 'react-confetti'
 
 export default function AssemblyEndgame() {
-  // const [currentWord, setCurrentWord] = useState(() => getRandomWord())
-  const [currentWord, setCurrentWord] = useState("react")
+  const [currentWord, setCurrentWord] = useState(() => getRandomWord())
+  // const [currentWord, setCurrentWord] = useState("react")
   const [guessedLetters, setGuessedLetters] = useState([])
 
   const wrongGuessCount = guessedLetters.filter(letter => !currentWord.includes(letter)).length
